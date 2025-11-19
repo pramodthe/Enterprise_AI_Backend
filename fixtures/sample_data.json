@@ -1,0 +1,144 @@
+{
+  "employees": [
+    {
+      "id": "E001",
+      "name": "John Smith",
+      "title": "Senior Software Engineer",
+      "department": "Engineering",
+      "manager": "Jennifer Lee",
+      "skills": ["Python", "JavaScript", "AWS", "Docker", "Kubernetes"],
+      "email": "john.smith@company.com",
+      "hire_date": "2020-03-15",
+      "location": "San Francisco, CA"
+    },
+    {
+      "id": "E002",
+      "name": "Sarah Johnson",
+      "title": "Product Manager",
+      "department": "Product",
+      "manager": "Mark Thompson",
+      "skills": ["Agile", "Product Strategy", "User Research", "Roadmapping", "Stakeholder Management"],
+      "email": "sarah.johnson@company.com",
+      "hire_date": "2019-07-01",
+      "location": "New York, NY"
+    },
+    {
+      "id": "E003",
+      "name": "Michael Chen",
+      "title": "Data Scientist",
+      "department": "Data",
+      "manager": "Lisa Brown",
+      "skills": ["Python", "Machine Learning", "SQL", "TensorFlow", "Data Visualization"],
+      "email": "michael.chen@company.com",
+      "hire_date": "2021-01-10",
+      "location": "Austin, TX"
+    },
+    {
+      "id": "E004",
+      "name": "Emily Davis",
+      "title": "UX Designer",
+      "department": "Product",
+      "manager": "Mark Thompson",
+      "skills": ["Figma", "User Research", "Prototyping", "Design Systems", "Accessibility"],
+      "email": "emily.davis@company.com",
+      "hire_date": "2020-09-20",
+      "location": "Seattle, WA"
+    },
+    {
+      "id": "E005",
+      "name": "David Wilson",
+      "title": "DevOps Engineer",
+      "department": "Engineering",
+      "manager": "Jennifer Lee",
+      "skills": ["Kubernetes", "Docker", "CI/CD", "Terraform", "AWS"],
+      "email": "david.wilson@company.com",
+      "hire_date": "2021-05-15",
+      "location": "San Francisco, CA"
+    }
+  ],
+  "organization": {
+    "ceo": {
+      "name": "Robert Anderson",
+      "title": "Chief Executive Officer",
+      "reports": ["Jennifer Lee", "Mark Thompson", "Lisa Brown"]
+    },
+    "executives": [
+      {
+        "name": "Jennifer Lee",
+        "title": "Chief Technology Officer",
+        "department": "Engineering",
+        "reports": ["John Smith", "David Wilson"]
+      },
+      {
+        "name": "Mark Thompson",
+        "title": "Chief Product Officer",
+        "department": "Product",
+        "reports": ["Sarah Johnson", "Emily Davis"]
+      },
+      {
+        "name": "Lisa Brown",
+        "title": "Head of Data",
+        "department": "Data",
+        "reports": ["Michael Chen"]
+      }
+    ]
+  },
+  "policies": {
+    "pto": {
+      "title": "Paid Time Off Policy",
+      "annual_days": 20,
+      "sick_days": 10,
+      "holidays": ["New Year's Day", "Memorial Day", "Independence Day", "Labor Day", "Thanksgiving", "Christmas"],
+      "carryover": "Up to 5 days can be carried over to the next year"
+    },
+    "remote_work": {
+      "title": "Remote Work Policy",
+      "model": "Hybrid",
+      "office_days": 3,
+      "remote_days": 2,
+      "flexibility": "Employees can choose which days to work remotely",
+      "equipment": "Company provides laptop, monitor, and $500 home office stipend"
+    },
+    "security": {
+      "title": "IT Security Policy",
+      "requirements": [
+        "All devices must have encryption enabled",
+        "Use VPN when working remotely",
+        "Password requirements: 12+ characters, changed every 90 days",
+        "Two-factor authentication required for all systems",
+        "Report security incidents immediately to IT"
+      ]
+    },
+    "benefits": {
+      "title": "Employee Benefits",
+      "health_insurance": "Comprehensive coverage for employees and dependents",
+      "retirement": "401(k) matching up to 6% of salary",
+      "professional_development": "$2000 annual budget for courses and conferences",
+      "gym_membership": "Up to $50/month reimbursement",
+      "parental_leave": "16 weeks paid leave"
+    }
+  },
+  "sample_queries": {
+    "hr": [
+      "Who reports to Jennifer Lee?",
+      "What are Michael Chen's skills?",
+      "Who is the CTO?",
+      "List all engineers in the company",
+      "What department does Sarah Johnson work in?"
+    ],
+    "analytics": [
+      "Calculate 15% of 80000",
+      "What is the percentage change from 50000 to 65000?",
+      "Calculate payroll for full-time employee with $78,000 annual salary",
+      "Calculate payroll for part-time employee at $25/hour for 22 hours",
+      "What is the average of 45, 67, 89, 23, 56?"
+    ],
+    "documents": [
+      "What is our PTO policy?",
+      "What is the remote work policy?",
+      "What are the password requirements?",
+      "What benefits do we offer?",
+      "How many days of PTO do employees get?"
+    ]
+  }
+}

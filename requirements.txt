@@ -13,7 +13,7 @@ python-dotenv
 pydantic
 pydantic-settings
 requests
-langfuse
+opik
 ragas
 qdrant-client
 langchain

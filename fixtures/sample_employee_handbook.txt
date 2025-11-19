@@ -1,0 +1,244 @@
+EMPLOYEE HANDBOOK
+Enterprise AI Assistant Platform
+Last Updated: November 2025
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+
+1. Welcome
+2. Work Hours and Schedule
+3. Remote Work Policy
+4. Paid Time Off (PTO)
+5. Benefits
+6. IT Security Policy
+7. Professional Development
+8. Code of Conduct
+
+================================================================================
+1. WELCOME
+================================================================================
+
+Welcome to Enterprise AI Assistant Platform! We're excited to have you as part
+of our team. This handbook provides important information about company policies,
+benefits, and expectations.
+
+Our mission is to build innovative AI solutions that empower enterprises to work
+more efficiently and effectively. We value collaboration, innovation, and
+continuous learning.
+
+================================================================================
+2. WORK HOURS AND SCHEDULE
+================================================================================
+
+Standard Work Hours: 9:00 AM - 5:00 PM, Monday through Friday
+
+Core Hours: 10:00 AM - 3:00 PM (all employees should be available during this time)
+
+Flexible Schedule: Employees may adjust their start and end times with manager
+approval, as long as core hours are covered.
+
+Breaks:
+- Lunch: 1 hour (unpaid)
+- Short breaks: Two 15-minute breaks per day (paid)
+
+================================================================================
+3. REMOTE WORK POLICY
+================================================================================
+
+Work Model: Hybrid
+
+Office Days: 3 days per week (Tuesday, Wednesday, Thursday recommended)
+Remote Days: 2 days per week (Monday and Friday recommended)
+
+Flexibility: Employees can choose which specific days to work remotely, subject
+to team coordination and manager approval.
+
+Equipment Provided:
+- Laptop (MacBook Pro or equivalent)
+- External monitor
+- Keyboard and mouse
+- $500 home office stipend for desk, chair, and accessories
+
+Requirements for Remote Work:
+- Reliable high-speed internet connection
+- Quiet workspace free from distractions
+- Availability during core hours
+- Use of company VPN for all work activities
+
+================================================================================
+4. PAID TIME OFF (PTO)
+================================================================================
+
+Annual PTO: 20 days per year (accrued monthly)
+
+Sick Leave: 10 days per year (separate from PTO)
+
+Holidays: The company observes the following paid holidays:
+- New Year's Day
+- Memorial Day
+- Independence Day (July 4th)
+- Labor Day
+- Thanksgiving Day and the day after
+- Christmas Day
+
+Carryover: Up to 5 unused PTO days can be carried over to the next calendar year.
+Days beyond this limit will be forfeited.
+
+Requesting Time Off:
+1. Submit request through HR system at least 2 weeks in advance
+2. Manager approval required
+3. Ensure adequate coverage for your responsibilities
+
+================================================================================
+5. BENEFITS
+================================================================================
+
+Health Insurance:
+- Comprehensive medical, dental, and vision coverage
+- Coverage for employees and dependents
+- Company pays 80% of premiums
+
+Retirement:
+- 401(k) plan with company matching
+- Company matches up to 6% of salary
+- Immediate vesting
+
+Professional Development:
+- $2,000 annual budget per employee
+- Use for courses, conferences, certifications, books
+- Manager approval required
+
+Wellness:
+- Gym membership reimbursement up to $50/month
+- Mental health support through Employee Assistance Program (EAP)
+- Annual health screenings
+
+Parental Leave:
+- 16 weeks paid parental leave
+- Available to all parents (birth, adoption, foster)
+- Can be taken within first year of child's arrival
+
+================================================================================
+6. IT SECURITY POLICY
+================================================================================
+
+Device Security:
+- All company devices must have full-disk encryption enabled
+- Automatic screen lock after 5 minutes of inactivity
+- Keep operating system and software up to date
+
+Password Requirements:
+- Minimum 12 characters
+- Must include uppercase, lowercase, numbers, and special characters
+- Change password every 90 days
+- No password reuse for last 5 passwords
+
+Two-Factor Authentication (2FA):
+- Required for all company systems
+- Use authenticator app (Google Authenticator, Authy, etc.)
+- Backup codes must be stored securely
+
+VPN Usage:
+- Required when working remotely
+- Required when using public Wi-Fi
+- Always-on VPN recommended
+
+Data Protection:
+- Never share credentials with anyone
+- Don't store sensitive data on personal devices
+- Use encrypted communication channels for sensitive information
+- Report lost or stolen devices immediately
+
+Incident Reporting:
+- Report security incidents to IT immediately
+- Email: security@company.com
+- Phone: (555) 123-4567 (24/7 hotline)
+
+Prohibited Activities:
+- Sharing company data with unauthorized parties
+- Using company resources for personal business
+- Installing unauthorized software
+- Accessing inappropriate content
+
+================================================================================
+7. PROFESSIONAL DEVELOPMENT
+================================================================================
+
+Learning Budget: $2,000 per employee per year
+
+Eligible Expenses:
+- Online courses (Coursera, Udemy, LinkedIn Learning, etc.)
+- Professional certifications
+- Conference attendance
+- Technical books and subscriptions
+- Workshops and training programs
+
+Approval Process:
+1. Discuss learning goals with manager
+2. Submit request through HR system
+3. Provide justification for how it benefits your role
+4. Manager approval required within 5 business days
+
+Conference Attendance:
+- Company covers registration, travel, and accommodation
+- Present learnings to team upon return
+- Limited to 2 conferences per year per employee
+
+Internal Learning:
+- Weekly tech talks (Fridays at 4 PM)
+- Monthly lunch-and-learn sessions
+- Mentorship program
+- Internal knowledge base and documentation
+
+================================================================================
+8. CODE OF CONDUCT
+================================================================================
+
+Our Values:
+- Respect: Treat everyone with dignity and respect
+- Integrity: Act honestly and ethically
+- Collaboration: Work together to achieve common goals
+- Innovation: Embrace new ideas and continuous improvement
+- Accountability: Take ownership of your work and decisions
+
+Expected Behavior:
+- Communicate professionally and respectfully
+- Be inclusive and welcoming to all team members
+- Give and receive constructive feedback
+- Meet deadlines and commitments
+- Maintain confidentiality of sensitive information
+
+Unacceptable Behavior:
+- Harassment or discrimination of any kind
+- Bullying or intimidation
+- Dishonesty or fraud
+- Violation of company policies
+- Retaliation against those who report concerns
+
+Reporting Concerns:
+- Speak with your manager
+- Contact HR: hr@company.com
+- Anonymous hotline: (555) 987-6543
+- All reports will be investigated promptly and confidentially
+
+================================================================================
+ACKNOWLEDGMENT
+================================================================================
+
+By accepting employment with Enterprise AI Assistant Platform, you acknowledge
+that you have received, read, and understood this Employee Handbook. You agree
+to comply with all policies and procedures outlined herein.
+
+If you have any questions about these policies, please contact Human Resources.
+
+Contact Information:
+- HR Email: hr@company.com
+- HR Phone: (555) 123-4567
+- Office Address: 123 Tech Street, San Francisco, CA 94105
+
+Thank you for being part of our team!
+
+================================================================================
+END OF HANDBOOK
+================================================================================
