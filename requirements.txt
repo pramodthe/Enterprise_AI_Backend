@@ -27,6 +27,7 @@ boto3
 langchain-aws
 tiktoken
 asyncio
+sentence-transformers
 websockets
 hypothesis>=6.0.0
 pytest>=7.0.0
