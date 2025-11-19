@@ -8,6 +8,10 @@ import time
 import logging
 from typing import List, Tuple, Dict, Any
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables first
+load_dotenv()
 
 from langchain_community.document_loaders import TextLoader, Docx2txtLoader, PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -34,17 +38,18 @@ else:
 
 # Initialize model based on configuration
 if os.getenv("USE_BEDROCK", "False").lower() == "true":
+    import boto3
+    bedrock_runtime = boto3.client(
+        "bedrock-runtime",
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        region_name=os.getenv("AWS_DEFAULT_REGION", "us-east-1")
+    )
     model = BedrockModel(
-        client_args={
-            "aws_access_key_id": os.getenv("AWS_ACCESS_KEY_ID"),
-            "aws_secret_access_key": os.getenv("AWS_SECRET_ACCESS_KEY"),
-            "region_name": os.getenv("AWS_DEFAULT_REGION", "us-east-1"),
-        },
+        client=bedrock_runtime,
         max_tokens=1028,
         model_id=os.getenv("BEDROCK_MODEL_ID", "anthropic.claude-sonnet-v1:0"),
-        params={
-            "temperature": 0.3,
-        }
+        temperature=0.3
     )
 else:
     model = AnthropicModel(

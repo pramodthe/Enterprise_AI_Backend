@@ -5,6 +5,10 @@ Adapted from the existing A2A system in the codebase
 import os
 from urllib.parse import urlparse
 import logging
+from dotenv import load_dotenv
+
+# Load environment variables first
+load_dotenv()
 
 # Import Opik tracing utilities
 from backend.core.opik_config import is_tracing_enabled, get_opik_metadata, get_session_id
@@ -22,17 +26,18 @@ if os.getenv("USE_BEDROCK", "False").lower() == "true":
     from mcp.client.streamable_http import streamablehttp_client
 
     # Use Bedrock model
+    import boto3
+    bedrock_runtime = boto3.client(
+        "bedrock-runtime",
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        region_name=os.getenv("AWS_DEFAULT_REGION", "us-east-1")
+    )
     model = BedrockModel(
-        client_args={
-            "aws_access_key_id": os.getenv("AWS_ACCESS_KEY_ID"),
-            "aws_secret_access_key": os.getenv("AWS_SECRET_ACCESS_KEY"),
-            "region_name": os.getenv("AWS_DEFAULT_REGION", "us-east-1"),
-        },
+        client=bedrock_runtime,
         max_tokens=1028,
         model_id=os.getenv("BEDROCK_MODEL_ID", "anthropic.claude-sonnet-v1:0"),
-        params={
-            "temperature": 0.3,
-        }
+        temperature=0.3
     )
 else:
     # Use Anthropic model (original implementation)
